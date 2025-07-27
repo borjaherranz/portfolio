@@ -1,3 +1,11 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
 <!doctype html>
 <html lang="en">
 	<head>
@@ -8,6 +16,11 @@
 		<title>Borja Herranz Moral - Portfolio</title>
 	</head>
 	<body>
+		<nav> 
+			<ul>Curriculum Vitae</ul>
+			<ul>Projects</ul>
+			<ul>Certifications</ul>
+		</nav>
 		<slot />
 	</body>
 </html>
@@ -15,7 +28,7 @@
 <style is:global>
 	html {
 		font-family: Menlo, Monaco, Lucida, Console, 'Courier New', Courier, monospace;
-		background: #fff
+		background: #f9fafb
 		letter-spacing: -0.025rem
 	}
 
@@ -37,9 +50,33 @@
 	}
 
 	*, *::before, *::after {
-		html {
-			background-color: #000;
-			color: #fff
-		}
+		box-sizing: border-box;
 	}
+
+	h1, h2, h3, h4 {
+		margin: 0;
+		font-family: 
+			system-ui,
+			-apple-system,
+			BlinkMacSystemFont,
+			'Segoe UI',
+			Roboto,
+			IBM Plex Sans,
+			Inter,
+			Oxygen,
+			Ubuntu,
+			Cantarell,
+			'Open Sans',
+			'Helvetica Neue',
+			sans-serif;
+	}
+
+	P {
+		color: #888;
+		font-size: 0.8rem;
+		line-height: 1.5;
+		margin: 0;
+		text-wrap: pretty;
+	}
+
 </style>
