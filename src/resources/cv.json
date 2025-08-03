@@ -1,26 +1,50 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
-    "image": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "https://johndoe.com",
-    "summary": "A summary of John Doe…",
+    "name": "Borja Herranz Moral",
+    "label": "Software Development Engineer in Test",
+    "image": "/bherranz-portfolio.jpg",
+    "email": "borjaherranzmoral@gmail.com",
+    "phone": "(+34) 697673753",
+    "url": "",
+    "summary": ["Bachelor's degree in Industrial Technologies Engineering and Master in Industrial Engineering by University Carlos III of Madrid, in 2017.",
+      "My passion for new technologies, innovation and continuous improvement lead me to develop my career in the IT and consulting areas.\n",
+      "Throughout my career, I have honed my skills in software development, specializing in areas such as software quality assurance, test automation and product lifecycle management. ",
+      "Thanks to this I have been equiped with a robust skill set and a keen understanding for leveraging technology to driver organizational success.\n",
+      "Currently working as a Test Automation Engineer in the Software Automation department from Jember Gmbh, transitioning to a SDET role with DevOps vision, bridging development,",
+      "testing and infraestructure.\n Always open to connecting with professionals passionate about quality, automation, and DevOps. Feel free to reach out!"],
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Calle Marte, 4",
+      "postalCode": "28850",
+      "city": "Torrejón de Ardoz",
+      "countryCode": "ES",
+      "region": "Madrid"
     },
-    "profiles": [{
-      "network": "Twitter",
-      "username": "john",
-      "url": "https://twitter.com/john"
-    }]
+    "profiles": [
+      {
+        "network": "github",
+        "username": "borjaherranz",
+        "url": "https://github.com/borjaherranz/"
+      },
+      {
+        "network": "linkedin",
+        "username": "borjaherranz",
+        "url": "https://www.linkedin.com/in/bherranz-sdet-automation/"
+      }
+  ]
   },
-  "work": [{
+  "work": [
+    {
+    "name": "Jember Engineering SL",
+    "position": "Test Automation Engineer",
+    "url": "https://www.jember.de/",
+    "startDate": "2021-10-13",
+    "endDate": null,
+    "summary": "Leading the testing strategies for the company's product, related with the fleet electric management. Driving the software quality along all the SDLC within an Agile framework, including the automation of the product using tools like Selenium, Cucumber for the front-end testing, as well as using Rest Assured for the API. As time to market was critical, I integrated all these tasks in a shift-left approach, by using CI/CD with Azure DevOps",
+    "highlights": [
+      "By using automation, I reduced the time to market in testing by 25%, as manual efforts were reduced."
+    ]
+  },
+  {
     "name": "Company",
     "position": "President",
     "url": "https://company.com",
@@ -30,7 +54,19 @@
     "highlights": [
       "Started the company"
     ]
-  }],
+  },
+  {
+    "name": "Company",
+    "position": "President",
+    "url": "https://company.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Started the company"
+    ]
+  }
+],
   "volunteer": [{
     "organization": "Organization",
     "position": "Volunteer",
@@ -82,10 +118,20 @@
       "JavaScript"
     ]
   }],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Advanced (C1)"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "German",
+      "fluency": "Elementary (A2)"
+    }
+],
   "interests": [{
     "name": "Wildlife",
     "keywords": [

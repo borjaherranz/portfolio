@@ -1,1 +1,24 @@
-<h2>About</h2>
+---
+import Section from '@/components/Section.astro';
+import { basics } from '@/resources/cv.json';
+const { summary } = basics;
+---
+
+<Section title="About">
+    <h1>About</h1>
+    <p>
+        {summary}
+    </p>   
+</Section>
+
+<style is:global>
+    
+    p {
+        padding-top: 3%;
+
+        font-size: medium;
+        text-wrap: wrap;
+        margin: 0;
+    }
+
+</style>
