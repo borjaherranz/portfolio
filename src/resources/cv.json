@@ -7,11 +7,11 @@
     "phone": "(+34) 697673753",
     "url": "",
     "summary": ["Bachelor's degree in Industrial Technologies Engineering and Master in Industrial Engineering by University Carlos III of Madrid, in 2017.",
-      "My passion for new technologies, innovation and continuous improvement lead me to develop my career in the IT and consulting areas.\n",
-      "Throughout my career, I have honed my skills in software development, specializing in areas such as software quality assurance, test automation and product lifecycle management. ",
+      "My passion for new technologies, innovation and continuous improvement lead me to develop my career in software engineering within the transportation and automotive sectors.",
+      "Throughout my career, I have honed my skills in software development, specializing in asoftware testing, test automation and product lifecycle management, by applying an industrial engineering approach to ensure quality and compliance in complex and regulated environments.",
       "Thanks to this I have been equiped with a robust skill set and a keen understanding for leveraging technology to driver organizational success.\n",
-      "Currently working as a Test Automation Engineer in the Software Automation department from Jember Gmbh, transitioning to a SDET role with DevOps vision, bridging development,",
-      "testing and infraestructure.\n Always open to connecting with professionals passionate about quality, automation, and DevOps. Feel free to reach out!"],
+      "I am open to connect with professionals who are passionate about innovation, quality and automation."    
+    ],
     "location": {
       "address": "Calle Marte, 4",
       "postalCode": "28850",
@@ -34,68 +34,61 @@
   },
   "work": [
     {
-    "name": "Jember Engineering SL",
+    "company": "Jember Engineering SL",
     "position": "Test Automation Engineer",
     "url": "https://www.jember.de/",
     "startDate": "2021-10-13",
     "endDate": null,
-    "summary": "Leading the testing strategies for the company's product, related with the fleet electric management. Driving the software quality along all the SDLC within an Agile framework, including the automation of the product using tools like Selenium, Cucumber for the front-end testing, as well as using Rest Assured for the API. As time to market was critical, I integrated all these tasks in a shift-left approach, by using CI/CD with Azure DevOps",
+    "summary": "Leading the creation of the testing strategies for the company's product, related with the fleet electric management. Driving the software quality along all the SDLC within an Agile framework, including the automation of the product using tools like Selenium, Cucumber for the front-end testing, as well as using Rest Assured for the API. As time to market was critical, I integrated all these tasks in a shift-left approach, by using CI/CD with Azure DevOps",
     "highlights": [
       "By using automation, I reduced the time to market in testing by 25%, as manual efforts were reduced."
     ]
   },
   {
-    "name": "Company",
-    "position": "President",
-    "url": "https://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description…",
+    "company": "Indra",
+    "position": "V&V Engineer",
+    "url": "https://www.indracompany.com/",
+    "startDate": "2020-04-20",
+    "endDate": "2021-10-12",
+    "summary": "Built the different testing strategies in the new V&V department, created in the Toll department, by getting, reviewing and refining the different test requirements as well as performing the FAT and SAT tests on field.",
     "highlights": [
-      "Started the company"
+      "Leading a toll solution implanted in Mexico, in Jalisco"
     ]
   },
   {
-    "name": "Company",
-    "position": "President",
-    "url": "https://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description…",
+    "company": "Indra",
+    "position": "Application Engineer",
+    "url": "https://www.indracompany.com/",
+    "startDate": "2018-02-14",
+    "endDate": "2020-04-19",
+    "summary": "Junior Software Engineer in the Enforcement department(Transport sector) at Indra. Responsible of tracing the different requirements as well as developing some tools for the existing internal framework for infringement management.",
     "highlights": [
-      "Started the company"
+      "Presenting different offers to clients for selling the product."
     ]
   }
 ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "University",
-    "url": "https://institution.com/",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
+  "education": [
+    {
+      "institution": "Universidad Carlos III de Madrid",
+      "url": "https://www.uc3m.es/bachelor-degree/industrial-technologies",
+      "area": "Industrial Engineering",
+      "studyType": "Bachelor in Industrial Technologies Engineering",
+      "summary": "The acquired skills include many technological fields such as mechanics, automatics, electronics, electricity, materials, industrial organization, manufacturing processes or renewable energies. As a result, Industrial Engineers have a multidisciplinary background with a wide-ranging knowledge that allows adapting to the present changing technological scenario. An Industrial Engineer is able to develop a wide range of professional backgrounds such as leadership and project management, consulting, public administration, organization and business management or design of industrial equipment. This demonstrates the flexibility and adaptability of industrial engineers to new labor demands of society.",
+      "startDate": "2010-09-01",
+      "endDate": "2014-06-30",
+      "score": "7.0"
+    },
+    {
+      "institution": "Universidad Carlos III de Madrid",
+      "url": "https://www.uc3m.es/Inicio",
+      "area": "Industrial Engineering",
+      "studyType": "Master in Industrial Engineering",
+      "summary": "The Master in Industrial Engineering enables graduates to practice as Industrial Engineers in accordance with current legislation. Industrial Engineers' roles range from product design and product costing, processing, industrial plants and facilities, product research, development and innovation, processing and manufacturing methods, to development, general management and project management in all industries including R&D.",
+      "startDate": "2014-09-01",
+      "endDate": "2017-09-15",
+      "score": "7.0"
+    }
+],
   "certificates": [{
     "name": "Certificate",
     "date": "2021-11-07",
@@ -109,15 +102,68 @@
     "url": "https://publication.com",
     "summary": "Description…"
   }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ]
-  }],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "Advanced",
+      "keywords": [
+        "Test Automation",
+        "AI Automation"
+      ]
+    },
+    {
+      "name": "Pytest",
+      "level": "Advanced",
+      "keywords": [
+        "Test Automation"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Advanced",
+      "keywords": [
+        "Test Automation",
+        "Selenium",
+        "Cucumber",
+        "Software Development"
+      ]
+    },
+        {
+      "name": "JavaScript",
+      "level": "Mediumº",
+      "keywords": [
+        "Test Automation",
+        "Playwright",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CI/CD",
+      "level": "Medium",
+      "keywords": [
+        "Azure DevOps",
+        "Jenkins"
+      ]
+    },
+    {
+      "name": "Test Management Tools",
+      "level": "Medium",
+      "keywords": [
+        "ALM Octane",
+        "XRay",
+        "BrowserStack"
+
+      ]
+    },
+    {
+      "name": "Requirements Management",
+      "level": "Medium",
+      "keywords": [
+        "ALM Octane",
+        "DOORS"
+      ]
+    }
+  ],
   "languages": [
     {
       "language": "English",
