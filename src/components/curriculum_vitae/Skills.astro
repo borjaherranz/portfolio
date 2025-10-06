@@ -1,6 +1,72 @@
 ---
 import Section from '@/components/Section.astro';
+import Html from '@/icons/Html.astro';
+import Css from '@/icons/Css.astro';
+import JavaScript from '@/icons/JavaScript.astro';
+import Cucumber from '@/icons/Cucumber.astro';
+import Git from '@/icons/Git.astro';
+import Jmeter from '@/icons/Jmeter.astro';
+import Pytest from '@/icons/Pytest.astro';
+import Selenium from '@/icons/Selenium.astro';
+import Python from '@/icons/Python.astro';
+import Playwright from '@/icons/Playwright.astro';
+import Azure from '@/icons/Azure.astro';
+import Postman from '@/icons/Postman.astro';
+import { skills } from '@/resources/cv.json';
+import Java from '@/icons/Java.astro';
+
+const SKILL_ICONS: Record<string, any> = {
+    'Python': Python,
+    'Pytest': Pytest,
+    'Java': Java,
+    'JavaScript': JavaScript,
+    'Selenium': Selenium,
+    'Cucumber': Cucumber,
+    'Playwright': Playwright,
+    'Git': Git,
+    'Jmeter': Jmeter,
+    'Azure': Azure,
+    'HTML': Html,
+    'CSS': Css,
+    'Postman': Postman,
+}
 ---
-<Section>
-    <h2>Skills</h2>
+<Section title="Skills">
+    <ul>
+        {
+            skills.map(({name}) => {
+                const Icon = SKILL_ICONS[name];
+                return (
+                    <li class="skill-item">
+                        {Icon ? (
+                            <>
+                                <Icon class="skill-icon" />
+                                <span>{name}</span>
+                            </>
+                    ) : (
+                    <span class="skill-text">{name}</span>
+                    )}
+                    </li>
+                )
+            })
+        }
+    </ul>
 </Section>
+
+<style>
+    ul {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    li {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        background: #eee;
+        border-radius: 4px;
+        padding: 4px 8px;
+        font-size: 0.8rem;
+        color: #333;
+    }
+</style>

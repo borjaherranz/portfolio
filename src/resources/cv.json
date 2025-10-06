@@ -125,12 +125,13 @@
         "Test Automation",
         "Selenium",
         "Cucumber",
-        "Software Development"
+        "Software Development",
+        "Rest Assured"
       ]
     },
         {
       "name": "JavaScript",
-      "level": "Mediumº",
+      "level": "Medium",
       "keywords": [
         "Test Automation",
         "Playwright",
@@ -138,11 +139,74 @@
       ]
     },
     {
-      "name": "CI/CD",
+      "name": "Selenium",
       "level": "Medium",
       "keywords": [
-        "Azure DevOps",
-        "Jenkins"
+        "Test Automation",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Cucumber",
+      "level": "Medium",
+      "keywords": [
+        "Test Automation",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Playwright",
+      "level": "Medium",
+      "keywords": [
+        "Test Automation",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Medium",
+      "keywords": [
+        "CI/CD"
+      ]
+    },
+    {
+      "name": "Jmeter",
+      "level": "Medium",
+      "keywords": [
+        "Test Automation"
+      ]
+    },
+    {
+      "name": "Azure",
+      "level": "Medium",
+      "keywords": [
+        "CI/CD",
+        "Azure Portal",
+        "Kubernetes",
+        "Storage"
+      ]
+    },
+    {
+      "name": "Html",
+      "level": "Medium",
+      "keywords": [
+        "Frontend",
+        "Test Automation"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Medium",
+      "keywords": [
+        "Frontend",
+        "Test Automation"
+      ]
+    },
+    {
+      "name": "Postman",
+      "level": "Medium",
+      "keywords": [
+        "API Testing"
       ]
     },
     {
